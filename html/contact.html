@@ -88,24 +88,62 @@
  <select class="contact_form_box1" name="subject" required="required">
    <optgroup value>
      <option class="select_with" value="プルダウンメニューで問い合わせ内容を選択" hidden>お問い合わせ内容を選択</option>
-     <option class="select_with" value="サイト制作／運用の見積もり" hidden>サイト制作／運用の見積もり</option>
-     <option class="select_with" value="システム制作／運用の見積もり" hidden>システム制作／運用の見積もり</option>
-     <option class="select_with" value="その他" hidden>その他</option>
+     <option class="select_with" value="サイト制作／運用の見積もり">サイト制作／運用の見積もり</option>
+     <option class="select_with" value="システム制作／運用の見積もり">システム制作／運用の見積もり</option>
+     <option class="select_with" value="その他">その他</option>
    </optgroup>
  </select>
-  
+  </div>
+  <div class="contact_box">
+    <label for="name" class="contact_form_ttl">お名前（漢字）</label>
+    <input type="text" class="contact_foam_box2" name="" required="required" placeholder="お名前をご入力下さい">
   </div>
   
-  
-  
+  <div class="contact_box">
+    <label for="email" class="contact_form_ttl">メールアドレス</label>
+    <input type="text" class="contact_foam_box2" name="" required="required" placeholder="例）example@example.com">
   </div>
+  
+  <div class="contact_box _area">
+    <label for="message" class="contact_form_ttl">お問い合わせ内容</label>
+    <textarea name="message" class="contact_txtarea" id="message" required="required" placeholder="お問い合わせ内容をご入力下さい"></textarea>
+  </div>
+ <button type="submit" class="btn contact_btn">送信する</button> 
 </form>
-
-
-
 </main>
 
-
+<footer>
+  <div class="footer_logo">
+    <a href="index.html">
+      <img src="../img/logo.png" alt="ロゴ画像">
+    </a>
+  </div>
+  <ul class="footer_list">
+    <li class="footer_item">
+      <a href="service.html">Service</a>
+    </li>
+    <li class="footer_item">
+      <a href="service.html">About</a>
+    </li>
+    <li class="footer_item">
+      <a href="service.html">News</a>
+    </li>
+    <li class="footer_item">
+      <a href="service.html">Contact</a>
+    </li>
+  </ul>
+  <ul class="footer_sns">
+    <li class="sns_icon1">
+      <i class="fa-brands fa-twitter"></i>
+    </li>
+    <li class="sns_icon2">
+      <i class="fa-brands fa-instagram"></i>
+    </li>
+  </ul>
+  <small class="footer_txt">
+    ©WithCode.All Right Reserved.
+  </small>
+</footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="../js/common.js"></script>
 </body>
