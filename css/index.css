@@ -221,3 +221,80 @@
   right: 2.5%;
   top: 50%;
 }
+
+@media screen and (max-width: 1024px) {
+  .service_img {
+    height: 27.5em;
+  }
+
+  .top_img img {
+    width: 75%;
+  }
+
+  .about_item {
+    height: 12.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service_img {
+    height: 20em;
+  }
+
+  .service_img::after {
+    content: none;
+  }
+
+  .service_inner_txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2%;
+    top: unset;
+    transform: unset;
+  }
+
+  .service_descript {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top_img img {
+    width: 90%;
+  }
+
+  .service_list {
+    display: block;
+  }
+
+  .service_item {
+    width: 100%;
+  }
+
+  .service_item._service2,
+  .service_item._service3,
+  .service_item._service4 {
+    bottom: unset;
+    margin: 10% auto;
+  }
+
+  .about_list {
+    display: block;
+  }
+
+  .about_item {
+    width: 100%;
+    margin: 10% 0;
+  }
+
+  .news_list {
+    display: block;
+  }
+
+  .news_item {
+    width: 100%;
+  }
+}

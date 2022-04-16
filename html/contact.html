@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html>
 <head>
   <meta charset="UTF-8">
   <title>プログラミング教材「WithCode」</title>
@@ -13,7 +12,7 @@
   <meta property="og:image" content="img/logo.png">
   <meta property="og:description" content="「人生をコードと共に」というビジョンを達成するべく、皆さんのプログラミング学習をサポートします。">
   <meta property="og:site_name" content="プログラミング教材">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="../favicon.ico">
   <link rel="apple-touch-icon" size="180×180" href="img/logo.png">
   <link rel="stylesheet" type="text/css" href="../css/reset.css">
   <link rel="stylesheet" type="text/css" href="../css/common1.css">
@@ -25,9 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
-  <script src="https://kit.fontawesome.com/d6c376349e.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript" src="../js/common.js"></script>
+  
 </head>
 
 <body>
@@ -82,7 +79,7 @@
   <div class="contact_img"></div>
 </div>
 
-<form action="#" class="conract_form" id="form">
+<form action="mail.php" class="contact_form" id="form" method="POST">
   <div class="contact_box">
     <label for="name" class="contact_form_ttl">お問い合わせ項目</label>
  <select class="contact_form_box1" name="subject" required="required">
@@ -96,12 +93,12 @@
   </div>
   <div class="contact_box">
     <label for="name" class="contact_form_ttl">お名前（漢字）</label>
-    <input type="text" class="contact_foam_box2" name="" required="required" placeholder="お名前をご入力下さい">
+    <input type="text" class="contact_form_box2" name="" required="required" placeholder="お名前をご入力下さい">
   </div>
   
   <div class="contact_box">
     <label for="email" class="contact_form_ttl">メールアドレス</label>
-    <input type="text" class="contact_foam_box2" name="" required="required" placeholder="例）example@example.com">
+    <input type="text" class="contact_form_box2" name="" required="required" placeholder="例）example@example.com">
   </div>
   
   <div class="contact_box _area">
@@ -123,13 +120,13 @@
       <a href="service.html">Service</a>
     </li>
     <li class="footer_item">
-      <a href="service.html">About</a>
+      <a href="about.html">About</a>
     </li>
     <li class="footer_item">
-      <a href="service.html">News</a>
+      <a href="news.html">News</a>
     </li>
     <li class="footer_item">
-      <a href="service.html">Contact</a>
+      <a href="contact.html">Contact</a>
     </li>
   </ul>
   <ul class="footer_sns">
