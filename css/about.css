@@ -91,3 +91,42 @@
 .about_acc_txt {
   font-size: 1.25em;
 }
+
+ @madia screen and (max-width: 1024px){
+   .about_mem_ttl::before {
+     left: -5%;
+   }
+ }
+
+ @madia screen and (max-width: 480px){
+   
+  .about_com_all {
+    display: block;
+  }
+
+  .about_com_list {
+    width: 100%;
+  }
+
+  .about_mem_all {
+    display: block;
+  }
+
+  .about_mem_per {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .about_acc_map_wrapper {
+    display: block;
+  }
+
+  .about_acc_map {
+    width: 100%;
+    clip-path: unset;
+  }
+
+  .about_acc_list {
+    margin: 10% 5%;
+  }
+ }

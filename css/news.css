@@ -47,3 +47,12 @@
   margin-bottom: 2.5%;
 }
 
+@madia screen and (max-width: 480px){
+  .news_list {
+    display: block;
+  }
+
+  .news_item {
+    width: 100%;
+  }
+}

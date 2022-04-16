@@ -71,3 +71,87 @@
   font-weight: 700;
   background: linear-gradient(transparent 80%, #75a9ff);
 }
+
+@media screen and (max-width: 1024px){
+  .service_img {
+    height: 27.5em;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .service_img {
+    height: 20em;
+  }
+
+  .service_img::after {
+    content: none;
+  }
+
+  .service_inner_txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2%;
+    top: unset;
+    transform: unset;
+  }
+
+  .service_descript {
+    display: none;
+  }
+
+  .contact_item {
+    display: block;
+  }
+
+  .contact_text {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .cocntact_img {
+    width: 100%;
+  }
+
+  .contact_box {
+    display: grid;
+  }
+
+  .contact_box {
+    display: grid;
+  }
+
+  .contact_form_box1,
+  .contact_form_box2 {
+    width: 100%;
+    margin: 2.5% 0;
+  }
+
+  .contact_form_ttl::after {
+    left: 90%;
+  }
+
+  .contact_textarea {
+    width: 100%;
+    margin: 2.5% 0;
+  }
+
+  .service_list {
+  display: block;
+  }
+
+  .service_item {
+    width: 100%;
+  }
+
+  .service_item._service2,
+  .service_item._service3,
+  .service_item._service4 {
+    bottom: unset;
+    margin: 10% auto;
+  }
+
+}
